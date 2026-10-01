@@ -12,7 +12,7 @@ This staging area is the place where git knows what changes will be done from th
 to the next version.
 
 4. `Repository Area` -> This area actually contains the details of all your previous registered version.
-And the files in this area, git already anages them and knows their version history.
+And the files in this area, git already manages them and knows their version history.
 
 5. `git add <file>` -> moves file from working area to staging area
 
@@ -23,3 +23,9 @@ changes and creates a version out of it.
 
 8. `git commit` -> registers staging changes to a commit
 
+9. `git log` -> list down all the commits of the repository. If you want to exit out of git log prompt
+press `q`.
+
+10. `git restore` -> It removes all files changes from the staging area to be commited. This can be useful, 
+if we did some dirty piece of code  and now no more want it. Instead of deleting everry change line by line, 
+we can restore it or you can say restore last clean version of the file.
