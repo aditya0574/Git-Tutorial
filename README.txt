@@ -29,3 +29,15 @@ press `q`.
 10. `git restore` -> It removes all files changes from the staging area to be commited. This can be useful, 
 if we did some dirty piece of code  and now no more want it. Instead of deleting everry change line by line, 
 we can restore it or you can say restore last clean version of the file.
+
+11. `git restore --staged <file>` -> it removes file from changes from staging area to working area.
+this only works if changes are in your staging area.
+
+12. Diff between git rm and git restore
+ans: if you want to move the whole file back to the untracked state, then we do git rm, otherwise if we
+just want the changes to be moved in working area or staging area then we do git restore.
+
+13. `git diff commit1 commit2` -> gives the diff of all file changes between two commits
+
+14. `git commit -m``<your commit message>` -> If we want to avoid opening a text editor like vim/nano to add commit message we can use
+ this following command
