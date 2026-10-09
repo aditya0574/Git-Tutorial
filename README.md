@@ -58,4 +58,4 @@ just want the changes to be moved in working area or staging area then we do git
 
  20. `git add <file1> <file2> <file3>` : this command will add multiple file changes together in the staging area
 
- 21. `git add .`: this command will add all files from working area to staging area
+ 21. `git add .`: this command will add all files from working area to staging area.
