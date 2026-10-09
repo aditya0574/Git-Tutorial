@@ -16,7 +16,7 @@ And the files in this area, git already manages them and knows their version his
 
 5. `git add <file>` -> moves file from working area to staging area.
 
-6. `git rm --cached <file>` -> moves file back from staging area to working area
+6. `git rm --cached <file>` -> moves file back from staging area to working area.
 
 7. `commit` -> Commit is a particular version of the project. It captures a snapshot of the pproject's staged
 changes and creates a version out of it.
