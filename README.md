@@ -14,7 +14,7 @@ to the next version.
 4. `Repository Area` -> This area actually contains the details of all your previous registered version.
 And the files in this area, git already manages them and knows their version history.
 
-5. `git add <file>` -> moves file from working area to staging area
+5. `git add <file>` -> moves file from working area to staging area.
 
 6. `git rm --cached <file>` -> moves file back from staging area to working area
 
@@ -61,11 +61,3 @@ just want the changes to be moved in working area or staging area then we do git
  21. `git add .`: this command will add all files from working area to staging area.
 
 22. `git pull <remote name> <branch name> `: downloads latest changes from the branch of the mentioned remote in your local repo
-
-### Recommended practice to do
-
-- make changes
-- git add <file>
-- git commit
-- git pull
-- git push
