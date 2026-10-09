@@ -14,7 +14,7 @@ to the next version.
 4. `Repository Area` -> This area actually contains the details of all your previous registered version.
 And the files in this area, git already manages them and knows their version history.
 
-5. `git add <file>` -> moves file from working area to staging area
+5. `git add <file>` -> moves file from working area to staging area.
 
 6. `git rm --cached <file>` -> moves file back from staging area to working area
 
