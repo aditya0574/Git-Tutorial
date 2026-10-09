@@ -61,3 +61,11 @@ just want the changes to be moved in working area or staging area then we do git
  21. `git add .`: this command will add all files from working area to staging area.
 
 22. `git pull <remote name> <branch name> `: downloads latest changes from the branch of the mentioned remote in your local repo
+
+### Recommended practice to do
+
+- make changes
+- git add <file>
+- git commit
+- git push
+- git pull
