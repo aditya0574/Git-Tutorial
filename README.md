@@ -69,3 +69,5 @@ just want the changes to be moved in working area or staging area then we do git
 - git commit
 - git push
 - git pull
+- git log
+- git status
